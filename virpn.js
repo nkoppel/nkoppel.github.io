@@ -45,6 +45,11 @@ function getUint8Memory0() {
 function getStringFromWasm0(ptr, len) {
     return cachedTextDecoder.decode(getUint8Memory0().subarray(ptr, ptr + len));
 }
+/**
+*/
+__exports.wasm_start = function() {
+    wasm.wasm_start();
+};
 
 let cachedTextEncoder = new TextEncoder('utf-8');
 
@@ -118,8 +123,8 @@ __exports.eval = function(s) {
 
 /**
 */
-__exports.wasm_start = function() {
-    wasm.wasm_start();
+__exports.show = function() {
+    wasm.show();
 };
 
 async function load(module, imports) {
