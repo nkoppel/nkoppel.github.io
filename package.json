@@ -1,0 +1,14 @@
+{
+  "name": "virpn",
+  "collaborators": [
+    "Nathan Koppel <nathankoppel0@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "virpn_bg.wasm",
+    "virpn.js",
+    "virpn.d.ts"
+  ],
+  "browser": "virpn.js",
+  "types": "virpn.d.ts"
+}
