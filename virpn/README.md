@@ -67,12 +67,12 @@ Note: Numbers will be pushed onto the stack when entering any operator.
 
 ### Basic Operators
 
-    'q' or '+'       = add
-    'w' or '-'       = subtract
-    'e' or '/'       = divide
-    'r' or '*'       = multiply
-    't' or '^'       = to the power of
-    'D', 'E', or '%' = modulus
+    'q' or '+' = add
+    'w' or '-' = subtract
+    'e' or '/' = divide
+    'r' or '*' = multiply
+    't' or '^' = to the power of
+    'D' or '%' = modulus
 
 Note: The locations of the letters for addition, subtraction, and division are based off of the keys below them.
 
@@ -195,6 +195,7 @@ Note: \<letter\> can be any upper or lower case letter
 
     'I'                    = begin line editing
     'u'                    = undo the previous action
+    'T'                    = edit an item on the stack
     'ili' or '['           = If not in line edit mode, enter it. Begin writing a new list.
     ']'                    = Insert ']'
     'ifi' or '('           = If not in line edit mode, enter it. Begin writing a new function.
